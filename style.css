@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#quote-section {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#image-slider {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#image-slider img {
+    width: 100%;
+    height: auto;
+}
+
+.slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.slider-item {
+    position: relative;
+}
+
+#countdown-box {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+nav {
+    text-align: center;
+}
+
+body{
+    background: url(Images/background.jpeg);
+}
+
+#greeting {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: 240px;
+}
+
+/* style.css */
+
+#team-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#team-list li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+#team-list img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#team-list div {
+    margin-top: 5px;
+}
+
+#datepicker {
+    cursor: pointer;
+}
+
+#contact-section {
+    margin-top: 20px;
+}
+
+.slick-dots li button{
+    display: none !important;
+}

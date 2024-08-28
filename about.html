@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Multi-Function Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>ABOUT US</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about-section">
+            <h2>About Us</h2>
+            <p>Welcome to our multi-function website! We are a team of passionate developers and designers committed to bringing you innovative and engaging web experiences.</p>
+            <p>Our mission is to create functional and beautiful websites that cater to your needs. Whether it's a random quote generator, an image slider, or other exciting features, we've got you covered.</p>
+
+            <!-- Display a special message based on the time of day -->
+            
+            <p id="greeting"></p>
+
+            <script>
+                // Conditional statement to display a greeting based on the time of day
+                const currentHour = new Date().getHours();
+                let greetingMessage;
+
+                if (currentHour < 12) {
+                    greetingMessage = "Good morning!";
+                } else if (currentHour < 18) {
+                    greetingMessage = "Good afternoon!";
+                } else {
+                    greetingMessage = "Good evening!";
+                }
+
+                // Display the greeting
+                document.getElementById("greeting").textContent = greetingMessage;
+            </script>
+
+            
+
+            
+
+        </section>
+
+        <section id="team-section">
+            <h2>Our Team</h2>
+            <ul id="team-list"></ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>SasidharanElangovan/8910055</p>
+    </footer>
+
+    <!-- Add the script tags for jQuery and the external script.js file -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
